@@ -208,6 +208,12 @@ body {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
+  #header-nav1 div{
+    text-align:center;
+    position: absolute;
+    top:50%;
+    left:50%;
+  }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #8533ff;
   
@@ -223,6 +229,10 @@ body {
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
+  #header-nav2 p{
+    display: block;
+    text-align:center;
+  }
   /* End Header */.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #8533ff;
   
@@ -246,10 +256,7 @@ body {
   }
   .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #8533ff;
-  
- 
-
-}
+  }
 .navbar-header button.navbar-toggle {
   clear: both;
   
@@ -260,6 +267,9 @@ body {
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
+  #header-nav2 p{
+    text-align:center;
+  }
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
