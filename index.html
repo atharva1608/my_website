@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"> 
+    
 </head>
 <body>
   <header>
@@ -27,19 +29,24 @@
             </p>
           </div>
 
+
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span> 
+          <span class="icon-bar"></span> 
+          <span class="icon-bar"></span> 
           </button>
+         
+         </div>
+
+
         </div>
 
         <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
             <li>
               <a href="#about">
-                <br class="hidden-md"> About</a>
+                <br class="hidden-xs"> About</a>
             </li>
             <li>
               <a href="#education">
@@ -66,6 +73,21 @@
       </div><!-- .container -->
     </nav><!-- #header-nav -->
   </header>
+  <div>
+  <header>
+  <nav id="header-nav1" class="navbar navbar-default">
+  <img src="coding_photo.jpeg" alt="Working Photo" style="width:100%;height:250px;">
+  <div class="centered" style="position: absolute;top:30%;left:7%;font-weight: bold;font-size: 35px;font-family: 'Abril Fatface',cursive;opacity: 0.8">Hello I'm Atharva Alshi</div>
+  </nav>
+    
+  </header>
+  <header>
+  <nav id="header-nav2" class="navbar navbar-default">
+  <img src="atharva_alshi.jpg" alt="My Photo" style="width:120px;height:120px;display:block;margin:0 auto;">
+           <p style="font-weight: bold;font-size: 20px;font-family: 'Abril Fatface', cursive;text-align: center;">Studying B.Tech at VJTI</p>
+           </nav>
+         </header>
+           
 
   <div id="about-content" class="container">
   <a name="about"></a>
@@ -209,7 +231,7 @@
 </div>
 
     
-  <div id="about-content" >
+  <div id="about-content" class="container" >
   <a name="project"></a>
     <h2 id="project-title" class="text-center" style="color:#8533ff;font-family: 'Berkshire Swash', cursive;">Project</h2>
     <div class="text-center" style="color: #b380ff">
@@ -274,6 +296,7 @@
 
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
