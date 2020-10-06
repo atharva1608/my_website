@@ -1,5 +1,5 @@
 body {
-  font-size: 16px;
+  font-size: 20px;
   color: #fff;
   background-color: white;
   
@@ -33,6 +33,7 @@ body {
 .navbar-brand h1 { /* My Name */
   color: white;
   font-weight: bold;
+  font-size: 50px;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
@@ -194,7 +195,7 @@ body {
 
 /* Instagram */
 .fa-instagram {
-  background: #125688;
+  background: #3f729b;
   color: white;
   text-align: center;
   padding-left: 10px;
@@ -214,16 +215,12 @@ body {
     top:50%;
     left:50%;
   }
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+/*.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #8533ff;
   
  
 
-}
-.navbar-header button.navbar-toggle {
-  clear: both;
-  
-}
+}*/
 }
 
 /********** Medium devices only **********/
